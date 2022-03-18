@@ -1,0 +1,8 @@
+type Category {
+    id: ID!
+    name: String!
+    slug: String!
+    posts: [Post!]! @hasMany
+}
+
+
