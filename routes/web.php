@@ -21,35 +21,9 @@ use App\Models\User;
 |
 */
 
-
-
 Route::get('/', function () {
     return view('index');
 });
-
-
-// Route::get('/', [LandingPageController::class, 'index']);
-
-// TESTS 🧪 GET
-Route::get('test', function () {
-    
-    // $category = Category::find(3);
-    // $post= $category->posts()->first();
-
-    $posts= Post::find(5);
-    dump($posts->category);
-
-    // return "test";
-
-});
-// TESTS 🧪 POST
-// Route::post('test', function (Request $request) {
-
-//     // Upload an Image File to Cloudinary with One line of Code
-//     $uploadedFileUrl = Cloudinary::upload($request->file('file')->getRealPath())->getSecurePath();
-//     dd($uploadedFileUrl);
-// })->name('test');
-
 
 Route::group(['prefix' => 'admin'], function () {
     Voyager::routes();

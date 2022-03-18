@@ -328,7 +328,7 @@ class PostsTableSeeder extends Seeder
 
         // DUMMY USERS API https://dummyapi.io/account
         $client = new Client();
-        $response = $client->request("GET", "https://dummyapi.io/data/v1/post?limit=100", ['headers' => ['Accept' => 'application/json', 'app-id' => '62164af2de9e74dca4e3d16b']]);
+        $response = $client->request("GET", "https://dummyapi.io/data/v1/post?limit=100", ['headers' => ['Accept' => 'application/json', 'app-id' => env('DUMMY_API_KEY')]]);
         $response_data = json_decode((string) $response->getBody(), true);
         $oPosts =  $response_data['data'];
         $x = 0;

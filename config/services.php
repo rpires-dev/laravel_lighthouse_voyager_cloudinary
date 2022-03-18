@@ -30,4 +30,6 @@ return [
         'region' => env('AWS_DEFAULT_REGION', 'us-east-1'),
     ],
 
+    // 'dummy_api' => env('DUMMY_API', 'NULL')
+
 ];
