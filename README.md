@@ -67,7 +67,16 @@ Now visit your admin dashboard at wwww.yourlocalhost/admin
 
 wwww.yourlocalhost/graphql-playground
 
-And there you have it your own laravel api with GraphQl, Voyager and Cloudinary. I hope it doesn’t take you guys too long to have it running cause if does i totally ruined the objective if this endeavour, let me know ;)   
+### Disclaimers ⚠️
+The cloudinary system is only set to work with the voyager's admin interfaces, namely with the posts or/and users interfaces eg:
+
+on /your_project/app/Http/Controllers/Voyager/Controller.php
+```
+ $uploadedFileUrl = Cloudinary::upload( //etc...
+```
+and there is where you enter and collaborate 😃
+<br> <br>
+There you have it folks your own laravel api with GraphQl, Voyager and Cloudinary. I hope it doesn’t take you guys too long to have it running cause if did i totally ruined the objective if this endeavour, let me know ;)   
 
 ### ⚽️ Enjoy!
  
