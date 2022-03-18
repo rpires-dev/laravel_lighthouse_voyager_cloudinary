@@ -11,7 +11,7 @@
 I created this project for those people who want to quickly develop their apps without spending too much time going through installation pains.
 We all know that we can do way better things w/ our precious time.
 <br /><br />
-I decided to include  <a href="https://cloudinary.com/">Cloudinary</a> for those people who are going to deploy on services, such as  <a href="https://www.heroku.com/">Heroku</a> or other related platform. Why? because Heroku doesn’t support very well storage implementation :(
+I decided to include  <a href="https://cloudinary.com/">Cloudinary</a> for those people who are going to deploy on services, such as  <a href="https://www.heroku.com/">Heroku</a> or other related platforms. Why? because Heroku doesn’t support very well storage implementation :(
 <br /><br /> 
 
 https://github.com/cloudinary-labs/cloudinary-laravel
@@ -48,8 +48,8 @@ Create an admin user by:
 ```
 php artisan voyager:admin your@email.com --create
 ```
-Seed dummy data:
-Before doing this head on to https://dummyapi.io/account to get your api key, and paste it in your .env variable by:
+Seed dummy data:<br>
+⚠️ Before doing this head on to https://dummyapi.io/account to get your api key, and paste it in your .env variable by:
 ```
 DUMMY_API_KEY='your_dummy_api_key'
 ```
@@ -68,15 +68,15 @@ Now visit your admin dashboard at wwww.yourlocalhost/admin
 wwww.yourlocalhost/graphql-playground
 
 ### Disclaimers ⚠️
-The cloudinary system is only set to work with the voyager's admin interfaces, namely with the posts or/and users interfaces eg:
+The cloudinary system is only set to work with the voyager's admin interfaces, namely with the posts or/and users interfaces:
 
-on /your_project/app/Http/Controllers/Voyager/Controller.php
+on   🗂 /your_project/app/Http/Controllers/Voyager/Controller.php
 ```
  $uploadedFileUrl = Cloudinary::upload( //etc...
 ```
 and there is where you enter and collaborate 😃
 <br> <br>
-There you have it folks your own laravel api with GraphQl, Voyager and Cloudinary. I hope it doesn’t take you guys too long to have it running cause if did i totally ruined the objective if this endeavour, let me know ;)   
+There you have it folks your own laravel api with GraphQl, Voyager and Cloudinary. I hope it didn’t toke you guys too long to have it running, cause if did i totally ruined the objective if this endeavour, let me know ;)   
 
 ### ⚽️ Enjoy!
  
