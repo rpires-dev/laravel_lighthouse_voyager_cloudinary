@@ -6,7 +6,7 @@
     <a href="https://graphql.org/" target="_blank"><img src="https://graphql.org/img/logo.svg" width="50"></a>
 </p>
 
-## Laravel 8, Lighthouse, Voyager, Cloudinary API
+## Laravel 9, Lighthouse, Voyager, Cloudinary API
 
 I created this project for those people who want to quickly develop their apps without spending too much time going through installation pains.
 We all know that we can do way better things w/ our precious time.
