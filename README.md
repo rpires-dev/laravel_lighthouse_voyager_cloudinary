@@ -76,7 +76,7 @@ on   🗂 /your_project/app/Http/Controllers/Voyager/Controller.php
 ```
 and there is where you enter and collaborate 😃
 <br> <br>
-There you have it folks your own laravel api with GraphQl, Voyager and Cloudinary. I hope it didn’t toke you guys too long to have it running, cause if did i totally ruined the objective if this endeavour, let me know ;)   
+There you have it folks your own laravel api with GraphQl, Voyager and Cloudinary. I hope it didn’t toke you guys too long to have it running, cause if it did i totally ruined the objective if this endeavour, let me know ;)   
 
 ### ⚽️ Enjoy!
  
